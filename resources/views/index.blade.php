@@ -23,6 +23,7 @@
             bottom: 0px;
             left: 0px;
             opacity: 0.2;
+            z-index: -1;
         }
     </style>
 </head>
