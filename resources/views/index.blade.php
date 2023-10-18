@@ -136,7 +136,7 @@
                                             információkat és kérdezne a részletekről Madarász Péter igazgató úrtól,
                                             várjuk önt a regisztrációhoz kötött továbbtanulási szülői
                                             értekezletünkön!</p>
-                                        <a href="https://forms.office.com/e/F0hDsXLvWQ" target="_blank"
+                                        <a href="https://forms.office.com/e/sbG8TPvaWG" target="_blank"
                                            class="card-link btn btn-block btn-info">
                                             Szülői értekezlet regisztráció
                                         </a>
