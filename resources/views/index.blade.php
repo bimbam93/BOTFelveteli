@@ -181,7 +181,9 @@
                                         </a>
                                     </li>
                                     <li>
-                                        BMSZC Bláthy - Részletes fevételi tájékoztató (Hamarosan..)
+                                        <a href="/docs/nyilt_2324_BlathyTajReszl.pdf" target="_blank">
+                                            BMSZC Bláthy - Részletes fevételi tájékoztató (Hamarosan..)
+                                        </a>
                                     </li>
                                 </ul>
 
