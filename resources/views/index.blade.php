@@ -185,6 +185,11 @@
                                             BMSZC Bláthy - Részletes fevételi tájékoztató
                                         </a>
                                     </li>
+                                    <li>
+                                        <a href="/docs/nyilt_2324_Prezentacio.pdf" target="_blank">
+                                            BMSZC Bláthy - Nyílt napi prezentáció
+                                        </a>
+                                    </li>
                                 </ul>
 
                                 </p>
