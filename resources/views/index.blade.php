@@ -204,13 +204,10 @@
 
                                 <p>
                                     <strong>
-                                        Javasoljuk, hogy a jelentkezési lap kitöltésének megkezdése előtt feltétlenül olvassák el az oktatási hivatal tájékoztatóját
+                                        Javasoljuk, hogy a jelentkezési lap kitöltésének megkezdése előtt feltétlenül olvassák el az <a href="https://www.oktatas.hu/kozneveles/kozepfoku_felveteli_eljaras/KIFIR_TT_felvi_taj_es_kereso">
+                                            oktatási hivatal tájékoztatóját</a>
                                     </strong>
-                                    (
-                                    <a href="https://www.oktatas.hu/kozneveles/kozepfoku_felveteli_eljaras/KIFIR_TT_felvi_taj_es_kereso">
-                                        https://www.oktatas.hu/kozneveles/kozepfoku_felveteli_eljaras/KIFIR_TT_felvi_taj_es_kereso
-                                    </a>
-                                    ), amelyben
+                                    , amelyben
                                 </p>
 
                                 <ul>
@@ -259,12 +256,14 @@
                                         Csak SNI/BTMN tanuló esetében a speciális vizsgakörülmények (pl. hosszabb kidolgozási idő, számológép használata, stb.) kéréséhez szükséges
                                         <ul>
                                             <li>
-                                                Szülői kérelem a központi írásbeli vizsga speciális vizsgakörülményeinek biztosítására (docx)
-                                                (<a href="https://www.oktatas.hu/pub_bin/dload/kozoktatas/beiskolazas/2024/KOZFELVIR_szuloi_kerelem_kezi_2024.pdf" target="_blank">https://www.oktatas.hu/pub_bin/dload/kozoktatas/beiskolazas/2024/KOZFELVIR_szuloi_kerelem_kezi_2024.pdf</a>)
+                                                <a href="https://www.oktatas.hu/pub_bin/dload/kozoktatas/beiskolazas/2024/KOZFELVIR_szuloi_kerelem_kezi_2024.pdf" target="_blank">
+                                                    Szülői kérelem a központi írásbeli vizsga speciális vizsgakörülményeinek biztosítására (docx)
+                                                </a>
                                             </li>
                                             <li>
-                                                Szülői kérelem a központi írásbeli vizsga speciális vizsgakörülményeinek biztosítására (pdf)
-                                                (<a href="https://www.oktatas.hu/pub_bin/dload/kozoktatas/beiskolazas/2024/KOZFELVIR_szuloi_kerelem_2024.docx" target="_blank">https://www.oktatas.hu/pub_bin/dload/kozoktatas/beiskolazas/2024/KOZFELVIR_szuloi_kerelem_2024.docx</a>)
+                                                <a href="https://www.oktatas.hu/pub_bin/dload/kozoktatas/beiskolazas/2024/KOZFELVIR_szuloi_kerelem_2024.docx" target="_blank">
+                                                    Szülői kérelem a központi írásbeli vizsga speciális vizsgakörülményeinek biztosítására (pdf)
+                                                </a>
                                             </li>
                                             <li>
                                                 Amennyiben speciális vizsgakörülményre vonatkozó kérelmet nyújtanak be csatolni kell az azt alátámasztó érvényes szakértői véleményt is!
