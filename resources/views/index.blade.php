@@ -18,10 +18,10 @@
             background-image: url('{{ asset("assets/img/art.jpg") }}');
             background-size: cover;
             position: absolute;
-            top: 0px;
-            right: 0px;
-            bottom: 0px;
-            left: 0px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
             opacity: 0.2;
             z-index: -1;
         }
@@ -37,8 +37,10 @@
 
                     <div class="col-12 col-lg-5 order-lg-2">
                         <div class="p-0">
-                            <div class="text-center p-5"><img src="{{ asset('assets/img/logos/blathy_felirat.png') }}"
-                                                              style="width: 100%;">
+                            <div class="text-center p-5">
+                                <img src="{{ asset('assets/img/logos/blathy_felirat.png') }}"
+                                     style="width: 100%;"
+                                     alt="logo" />
 
                                 @if(false)
                                     <h4 class="text-dark mb-4">Felvételi jegyzék</h4>
@@ -88,7 +90,7 @@
                                                 id="born" name="born" type="date" pattern="\d{4}-\d{2}-\d{2}"
                                                 placeholder="éééé-hh-nn"></div>
                                         <div class="form-group">
-                                            <label class="float-left" for="born"
+                                            <label class="float-left" for="sign"
                                                    style="font-size: 13px;padding-left: 15px;"><strong>Jelige</strong></label>
                                             @error('sign') <small class="text-right text-danger d-block"
                                                                   style="padding-right: 15px;">{{ $message }}</small>@enderror
@@ -102,7 +104,7 @@
                                         </button>
 
                                         <a href="#"><i class="fas fa-question-circle float-right"
-                                                       style="padding-bottom: 0px;padding-right: 0px;"
+                                                       style="padding-bottom: 0;padding-right: 0;"
                                                        data-toggle="modal"
                                                        data-target="#help"></i></a>
                                     </form>
@@ -152,23 +154,23 @@
                         <div class="flex-grow-1 bg-login-image bg-login-image-bg" style="overflow: hidden; position: relative; ">
                             <div class="m-5" style="color: black; z-index: 2;">
 
-                                <h1>Felvételi Információk</h1>
+                                <h1>Felvételi tájékoztató</h1>
 
-                                <h2>Nyílt napok</h2>
-
-                                <p>2023. október 25-27-én és november 8-9-én nyílt napokat tartunk. A résztvevők
-                                    bejárhatják
-                                    az iskolát, bemutató órákat tekinthetnek meg, kérdéseket tehetnek fel. Az érdeklődő
-                                    nyolcadikosoknak iskolánk tanárai egyebek mellett programozás és hálózatok
-                                    számítógéptermi szakmai órákat tartanak. Ezeken az órákon a feladatok elvégzését –
-                                    szükség esetén – az iskolánk tanulói segítik.</p>
-
-                                <p>A nyílt napokon történtő részvétel regisztrációhoz kötött, ezért kérjük, az alábbi
-                                    "Regisztráció" linkeken jelezzék részvételi szándékukat!</p>
+                                <p>
+                                    A 2024/2025. tanévben indítani tervezett képzéseink:
+                                </p>
+                                <ul>
+                                    <li>
+                                        az általános iskolát a 2023/2024. tanévben befejezőknek a 9. évfolyamtól indulóan 5 éves technikumi képzés az informatika és távközlés ágazatban,
+                                    </li>
+                                    <li>
+                                        mindkét képzési formában a 11. évfolyamtól választhatóan „Szoftverfejlesztő és -tesztelő technikus” vagy „Informatikai rendszer- és alkalmazás-üzemeltető technikus” szakmákban.
+                                    </li>
+                                </ul>
 
                                 <p>
                                     További információk az alábbi dokumentumokban érhetőek el
-
+                                </p>
                                 <ul>
                                     <li>
                                         <a href="/docs/nyilt_2324_Blathy.pdf" target="_blank">
@@ -192,6 +194,103 @@
                                     </li>
                                 </ul>
 
+                                <h2>
+                                    Jelentkezés központi írásbeli felvételi vizsgára
+                                </h2>
+
+                                <p>
+                                    Iskolánk az idei tanévben is megszervezi a középfokú iskola 9. évfolyamára jelentkezők központi írásbeli vizsgáját magyar nyelvből és matematikából.
+                                </p>
+
+                                <p>
+                                    <strong>
+                                        Javasoljuk, hogy a jelentkezési lap kitöltésének megkezdése előtt feltétlenül olvassák el az oktatási hivatal tájékoztatóját
+                                    </strong>
+                                    (
+                                    <a href="https://www.oktatas.hu/kozneveles/kozepfoku_felveteli_eljaras/KIFIR_TT_felvi_taj_es_kereso">
+                                        https://www.oktatas.hu/kozneveles/kozepfoku_felveteli_eljaras/KIFIR_TT_felvi_taj_es_kereso
+                                    </a>
+                                    ), amelyben
+                                </p>
+
+                                <ul>
+                                    <li>
+                                        részletesen ismertetik a jelentkezési lap kitöltésének módjait és
+                                    </li>
+                                    <li>
+                                        tájékoztatást adnak a különleges bánásmódot igénylő (SNI - sajátos nevelési igényű, illetve a BTMN - beilleszkedési, tanulási, magatartási nehézségekkel küzdő) tanuló esetében követendő eljárásról a speciális vizsgakörülmények (pl. hosszabb kidolgozási idő, számológép használata, stb.).
+                                    </li>
+                                </ul>
+
+                                <p>
+                                    <strong>
+                                        A felvételi vizsgára a 2023. november 30-ig lehet jelentkezni az alábbi módokon. Kérjük, hogy amennyiben lehetőségük van rá, az ügyfélkapun keresztüli jelentkezési módot válasszák!
+                                    </strong>
+                                </p>
+
+                                <ul>
+                                    <li>
+                                        <strong>Ügyfélkapunk keresztül</strong>, elektronikus űrlap használatával. Az ügyfélkapun beküldendő elektronikus űrlap kitöltése előtt kérjük, hogy tekintsék meg a program használatához készített <strong>videóútmutatót</strong> (<a href="https://www.youtube.com/watch?v=6HMagO9tcuk" target="_blank">https://www.youtube.com/watch?v=6HMagO9tcuk</a>), vagy olvassák el a kitöltési útmutatót!
+                                        <ul>
+                                            <li>
+                                                Közfelvir - Elektronikus jelentkezési felület (<a href="https://ejel.kozfelvir.hu/" target="_blank">https://ejel.kozfelvir.hu/</a>)
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        A letöltött és kinyomtatott, <strong>kitöltött papír alapú dokumentumokat</strong> (jelentkezési lap és esetlegesen speciális vizsgakörülményre irányuló kérelem és szakértői vélemény) <strong>az iskola titkárságán munkanapokon 8:00-14:00 között leadva vagy az iskola címére postai úton megküldve</strong>
+                                        <ul>
+                                            <li>
+                                                <a href="/docs/Blathy_KOZFELVIR_jelentkezesi_lap_2024.docx" target="_blank">
+                                                    Jelentkezési lap központi írásbeli vizsgára a BMSZC Bláthy-ba (docx)
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="/docs/Blathy_KOZFELVIR_jelentkezesi_lap_2024.pdf" target="_blank">
+                                                    Jelentkezési lap központi írásbeli vizsgára a BMSZC Bláthy-ba (pdf)
+                                                </a>
+                                            </li>
+                                            <li>
+                                                amennyiben a nyomtatást nem tudják megoldani, az iskola portáján kérhetnek papír alapú jelentkezési lapot
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Csak SNI/BTMN tanuló esetében a speciális vizsgakörülmények (pl. hosszabb kidolgozási idő, számológép használata, stb.) kéréséhez szükséges
+                                        <ul>
+                                            <li>
+                                                Szülői kérelem a központi írásbeli vizsga speciális vizsgakörülményeinek biztosítására (docx)
+                                                (<a href="https://www.oktatas.hu/pub_bin/dload/kozoktatas/beiskolazas/2024/KOZFELVIR_szuloi_kerelem_kezi_2024.pdf" target="_blank">https://www.oktatas.hu/pub_bin/dload/kozoktatas/beiskolazas/2024/KOZFELVIR_szuloi_kerelem_kezi_2024.pdf</a>)
+                                            </li>
+                                            <li>
+                                                Szülői kérelem a központi írásbeli vizsga speciális vizsgakörülményeinek biztosítására (pdf)
+                                                (<a href="https://www.oktatas.hu/pub_bin/dload/kozoktatas/beiskolazas/2024/KOZFELVIR_szuloi_kerelem_2024.docx" target="_blank">https://www.oktatas.hu/pub_bin/dload/kozoktatas/beiskolazas/2024/KOZFELVIR_szuloi_kerelem_2024.docx</a>)
+                                            </li>
+                                            <li>
+                                                Amennyiben speciális vizsgakörülményre vonatkozó kérelmet nyújtanak be csatolni kell az azt alátámasztó érvényes szakértői véleményt is!
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                <p>
+                                    A központi írásbeli vizsga szervezőjének adatai, amennyiben a vizsgát a BMSZC Bláthy Ottó Titusz Informatikai Technikumban kívánják megírni:
+                                </p>
+
+                                <ul>
+                                    <li>OM azonosítója: 203058/002</li>
+                                    <li>Neve: Budapesti Műszaki Szakképzési Centrum Bláthy Ottó Titusz Informatikai Technikum</li>
+                                    <li>Címe: 1032 Budapest, Bécsi út 134.</li>
+                                </ul>
+
+                                <p>
+                                    <strong>
+                                        Felhívjuk a figyelmet arra, hogy a központi írásbeli vizsgák jelentkezési lapja CSAK a központi írásbeli vizsgára vonatkozik, nem tévesztendő össze az eljárás későbbi szakaszában használatos felvételi jelentkezési lappal!
+                                    </strong>
+                                </p>
+
+                                <p>
+                                    A vizsgára való jelentkezésükkel kapcsolatban esetlegesen felmerülő kérdéseiket a felveteli@blathy.info címen email-ben tehetik fel.
                                 </p>
 
                             </div>
