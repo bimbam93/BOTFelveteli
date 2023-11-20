@@ -117,30 +117,35 @@
                                 @endif
                                 <div class="card mt-5">
                                     <div class="card-body">
-                                        <h5 class="card-title">Nyílt nap</h5>
+                                        <h5 class="card-title">Továbbtanulás</h5>
                                         <p class="card-text">
-                                            Amennyiben szívesen megnéznék, hogy milyen órákkal, oktatókal
-                                            találkozhatnak iskolánkban, vagy akár az épületre kíváncsiak, esetleg
-                                            személyesen tennének fel pár kérdést, várjuk önöket reigsztrációhoz
-                                            kötött nyiltnapunkon!
                                         </p>
-                                        <a href="https://forms.office.com/e/F0hDsXLvWQ" target="_blank"
+                                        <a href="https://felveteli.blathy.info/docs/nyilt_2324_BlathyTajReszl.pdf" target="_blank"
                                            class="card-link btn btn-block btn-info">
-                                            Nyílt nap
-                                            regisztráció</a>
+                                            Részletes tájékoztató
+                                        </a>
+                                        <a href="https://felveteli.blathy.info/docs/nyilt_2324_Prezentacio.pdf" target="_blank"
+                                           class="card-link btn btn-block btn-info">
+                                            Prezentáció
+                                        </a>
                                     </div>
                                 </div>
 
                                 <div class="card mt-5">
                                     <div class="card-body">
-                                        <h5 class="card-title">Továbbtanulási szülői értekezlet</h5>
-                                        <p class="card-text">Amennyiben szívesen meghallgatná a képzéshez kapcsolódó
-                                            információkat és kérdezne a részletekről Madarász Péter igazgató úrtól,
-                                            várjuk önt a regisztrációhoz kötött továbbtanulási szülői
-                                            értekezletünkön!</p>
-                                        <a href="https://forms.office.com/e/sbG8TPvaWG" target="_blank"
+                                        <h5 class="card-title">Központi felvételi</h5>
+                                        <p class="card-text"></p>
+                                        <a href="https://ejel.kozfelvir.hu/" target="_blank"
                                            class="card-link btn btn-block btn-info">
-                                            Szülői értekezlet regisztráció
+                                            Online jelentkezés!
+                                        </a>
+                                        <a href="https://felveteli.blathy.info/docs/Blathy_KOZFELVIR_jelentkezesi_lap_2024.docx" target="_blank"
+                                           class="card-link btn btn-block btn-info">
+                                            Jelentkezési lap (DOCX)
+                                        </a>
+                                        <a href="https://felveteli.blathy.info/docs/Blathy_KOZFELVIR_jelentkezesi_lap_2024.pdf" target="_blank"
+                                           class="card-link btn btn-block btn-info">
+                                            Jelentkezési lap (PDF)
                                         </a>
                                     </div>
                                 </div>
