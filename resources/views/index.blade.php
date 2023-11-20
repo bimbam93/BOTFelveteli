@@ -121,11 +121,11 @@
                                         <p class="card-text">
                                         </p>
                                         <a href="https://felveteli.blathy.info/docs/nyilt_2324_BlathyTajReszl.pdf" target="_blank"
-                                           class="card-link btn btn-block btn-info">
+                                           class="btn btn-block btn-info">
                                             Részletes tájékoztató
                                         </a>
                                         <a href="https://felveteli.blathy.info/docs/nyilt_2324_Prezentacio.pdf" target="_blank"
-                                           class="card-link btn btn-block btn-info">
+                                           class="btn btn-block btn-info">
                                             Prezentáció
                                         </a>
                                     </div>
