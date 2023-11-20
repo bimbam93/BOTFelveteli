@@ -136,15 +136,15 @@
                                         <h5 class="card-title">Központi felvételi</h5>
                                         <p class="card-text"></p>
                                         <a href="https://ejel.kozfelvir.hu/" target="_blank"
-                                           class="card-link btn btn-block btn-info">
+                                           class="btn btn-block btn-info">
                                             Online jelentkezés!
                                         </a>
                                         <a href="https://felveteli.blathy.info/docs/Blathy_KOZFELVIR_jelentkezesi_lap_2024.docx" target="_blank"
-                                           class="card-link btn btn-block btn-info">
+                                           class="btn btn-block btn-info">
                                             Jelentkezési lap (DOCX)
                                         </a>
                                         <a href="https://felveteli.blathy.info/docs/Blathy_KOZFELVIR_jelentkezesi_lap_2024.pdf" target="_blank"
-                                           class="card-link btn btn-block btn-info">
+                                           class="btn btn-block btn-info">
                                             Jelentkezési lap (PDF)
                                         </a>
                                     </div>
