@@ -194,7 +194,7 @@
                                     </li>
                                 </ul>
 
-                                <h2>
+                                <h2 id="kozponti_jelentkezes">
                                     Jelentkezés központi írásbeli felvételi vizsgára
                                 </h2>
 
