@@ -58,10 +58,13 @@
                             <td>{{$student->born_place}}, {{date("Y.m.d.", strtotime($student->born_date))}}</td>
                         @endif
                     </tr>
+
+                    {{--
                     <tr>
                         <th>Oktatási azonosító:</th>
                         <td style="color: whitesmoke;">{{$student->edu_id}}</td>
                     </tr>
+                    --}}
                     </tbody>
                 </table>
             </div>
