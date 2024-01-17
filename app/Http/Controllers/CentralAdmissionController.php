@@ -12,7 +12,9 @@ class CentralAdmissionController extends Controller
 {
     public function index()
     {
-        return view('20_central_dist.index');
+        return view('20_central_dist.index', [
+            'updated_at' => "2024.01.17 12:01:23"
+        ]);
     }
 
     public function login(StudentLoginRequest $request)
