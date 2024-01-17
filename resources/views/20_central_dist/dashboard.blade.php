@@ -131,13 +131,13 @@
                         @endif
                     @endif
 
-                    @if($student->centralAdmission->math_low_maxpoint || $student->centralAdmission->math_low_maxpoint)
+                    @if($student->centralAdmission->math_low_maxpoint == 1 || $student->centralAdmission->math_low_maxpoint == 1)
                         Mentesül az értékelés egy része alól
                         <ul>
-                            @if($student->centralAdmission->math_low_maxpoint)
+                            @if($student->centralAdmission->math_low_maxpoint == 1)
                                 <li>Matematikából</li>
                             @endif
-                            @if($student->centralAdmission->lit_low_maxpoint)
+                            @if($student->centralAdmission->lit_low_maxpoint == 1)
                                 <li>Magyar nyelvből</li>
                             @endif
                         </ul>
