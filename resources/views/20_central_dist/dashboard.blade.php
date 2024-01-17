@@ -131,7 +131,7 @@
                         @endif
                     @endif
 
-                    @if($student->centralAdmission->math_low_maxpoint == 1 || $student->centralAdmission->math_low_maxpoint == 1)
+                    @if($student->centralAdmission->math_low_maxpoint == 1 || $student->centralAdmission->lit_low_maxpoint == 1)
                         Mentesül az értékelés egy része alól
                         <ul>
                             @if($student->centralAdmission->math_low_maxpoint == 1)
