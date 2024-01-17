@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\StudentLoginRequest;
 use App\Models\Student;
+use App\Models\StudentCAJoin;
 use App\Models\StudentLog;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -13,7 +14,7 @@ class CentralAdmissionController extends Controller
     public function index()
     {
         return view('20_central_dist.index', [
-            'updated_at' => "2024.01.17 12:01:23"
+            'updated_at' => StudentCAJoin::orderBy('updated_at')->first()->updated_at
         ]);
     }
 

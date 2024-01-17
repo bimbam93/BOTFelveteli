@@ -33,5 +33,5 @@ Route::get('/ca_schedule', [CentralAdmissionController::class, 'dashboard'])
 Route::any('/logout', function (){
     Session::flush();
     Auth::logout();
-    return redirect('login');
+    return redirect('index');
 })->name('logout');
