@@ -24,11 +24,22 @@ Route::get('/', function () {
 */
 
 // Központi felvételi beosztás
+/*
 Route::get('/', [CentralAdmissionController::class, 'index'])->name('index');
 Route::post('/ca_schedule', [CentralAdmissionController::class, 'login'])->name('student.login');
 Route::get('/ca_schedule', [CentralAdmissionController::class, 'dashboard'])
     ->middleware('auth:student')
     ->name('student.dashboard');
+*/
+
+Route::get('/', function (){
+    return view('30_verbal_dist.index');
+})->name('index');
+
+Route::get('/verb_schedule', function () {
+    return view('30_verbal_dist.index');
+})->name('login');
+
 
 Route::any('/logout', function (){
     Session::flush();
