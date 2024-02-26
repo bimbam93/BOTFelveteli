@@ -22,7 +22,7 @@
         @else
             <div class="alert alert-warning" role="alert">
                                             <span
-                                                style="font-size: 13px;">Elérhető legkorábban: <i> - 2024.02.26. - </i></span>
+                                                style="font-size: 13px;">Elérhető legkorábban: <i> - 2024.02.28. - </i></span>
             </div>
         @endif
 
