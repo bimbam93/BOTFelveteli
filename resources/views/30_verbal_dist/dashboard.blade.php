@@ -100,7 +100,7 @@
                         szóbeli felvételi alól.
                         <br>
                         A szóbeli értékelésre a legmagasabb ponszámot kapja.
-                    @elseif($student->verbalSchedule->szobelizhet == "#ÉRTÉK")
+                    @elseif($student->verbalSchedule->szobelizhet == "#ÉRTÉK!")
                         Nem teljesítette a felvételi követelményeket, így nem került beosztásra!
                     @endif
                 </div>
