@@ -36,7 +36,7 @@
                         class="fa fa-file-text bg-success border rounded-circle shadow"
                         style="color: var(--white);padding: 10px;font-size: 20px;"></i></div>
                 <div class="col align-self-center">
-                    <p class="text-success d-inline m-0 font-weight-bold">Központi felvételire jelentkezett tanuló</p>
+                    <p class="text-success d-inline m-0 font-weight-bold">Szóbeli felvételire beosztott tanuló</p>
                 </div>
             </div>
         </div>
@@ -73,7 +73,7 @@
 
         </div>
     </div>
-    @if($student->centralAdmission != NULL)
+    @if($student->verbalSchedule != NULL)
         <div class="card shadow my-5 border-left-primary">
             <div class="card-header py-3">
                 <div class="row">
@@ -81,121 +81,29 @@
                             class="fas fa-list bg-primary border rounded-circle shadow"
                             style="padding: 10px;font-size: 20px;color: var(--white);"></i></div>
                     <div class="col align-self-center">
-                        <p class="text-primary d-inline m-0 fw-bold"><strong>Központi felvételi információk</strong></p>
+                        <p class="text-primary d-inline m-0 fw-bold"><strong>Szóbeli felvételi információk</strong></p>
                     </div>
                 </div>
             </div>
             <div class="card-body">
 
                 <div class="card-text">
+                    @if($student->verbalSchedule->szobelizhet == "szóbeli")
+                        Vizsga terem: <strong> {{$student->verbalSchedule->szobeli_bizottsag}} </strong> <br>
 
-                    Vizsga terem: <strong> {{$student->centralAdmission->room}} </strong> <br>
-
-                    Megjelenés időpontja: <strong> 2024.01.20 09:30 </strong> <br>
-
-                    @if($student->centralAdmission->spec == 1)
+                        Megjelenés időpontja: <strong>
+                            {{$student->verbalSchedule->szobeli_datum}}
+                            {{$student->verbalSchedule->szobeli_idosav}}
+                        </strong>
+                    @elseif($student->verbalSchedule->szobelizhet == "FELMENTVE")
+                        A tanuló a központi felvételin elért pontszámnak és a hozott pontoknak köszönhetően felmentésre került a
+                        szóbeli felvételi alól.
                         <br>
-                        @if($student->centralAdmission->math_extra_time > 0 || $student->centralAdmission->lit_extra_time > 0)
-                            Többletidő:
-                            <ul>
-                                @if($student->centralAdmission->math_extra_time > 0)
-                                    <li>Matematika: <strong>{{$student->centralAdmission->math_extra_time}}</strong>
-                                        perc
-                                    </li>
-                                @endif
-                                @if($student->centralAdmission->lit_extra_time > 0)
-                                    <li>Magyar nyelv: <strong>{{$student->centralAdmission->lit_extra_time}}</strong>
-                                        perc
-                                    </li>
-                                @endif
-                            </ul>
-                        @endif
-                        @if($student->centralAdmission->lit_extra_text_editor == 1 ||
-                            $student->centralAdmission->math_extra_text_editor == 1 ||
-                            $student->centralAdmission->math_extra_calc == 1)
-                            További használható eszközök:
-                            <ul>
-                                @if($student->centralAdmission->lit_extra_text_editor == 1)
-                                    <li>
-                                        Magyar nyelv - Szövegszerkesztő
-                                    </li>
-                                @endif
-                                @if($student->centralAdmission->math_extra_text_editor == 1)
-                                    <li>
-                                        Matematika - Szövegszerkesztő
-                                    </li>
-                                @endif
-                                @if($student->centralAdmission->math_extra_calc == 1)
-                                    <li>
-                                        Matematika - Számológép
-                                    </li>
-                                @endif
-                            </ul>
-                        @endif
+                        A szóbeli értékelésre a legmagasabb ponszámot kapja.
+                    @elseif($student->verbalSchedule->szobelizhet == "#ÉRTÉK")
+                        Nem teljesítette a felvételi követelményeket, így nem került beosztásra!
                     @endif
-
-                    @if($student->centralAdmission->math_low_maxpoint == 1 || $student->centralAdmission->lit_low_maxpoint == 1)
-                        Mentesül az értékelés egy része alól
-                        <ul>
-                            @if($student->centralAdmission->math_low_maxpoint == 1)
-                                <li>Matematikából</li>
-                            @endif
-                            @if($student->centralAdmission->lit_low_maxpoint == 1)
-                                <li>Magyar nyelvből</li>
-                            @endif
-                        </ul>
-                    @endif
-
                 </div>
-
-                <p class="card-text">
-                    Az írásbeli vizsga során a dolgozat megírásakor a rajzokat ceruzával, minden egyéb írásbeli
-                    munkát
-                    kék vagy fekete színű tintával kell
-                    elkészíteni.
-                    <br>
-                    A magyar nyelvi feladatlapok kitöltéséhez segédeszköz nem használható.
-                    <br>
-                    A matematika feladatlapok kitöltéséhez rajzeszközökön (vonalzó, körző, szögmérő) kívül más
-                    segédeszköz (pl. zsebszámológép) nem
-                    használható.
-                </p>
-
-                A vizsgára feltétlenül hozza magával a következőket:
-                <ul>
-                    <li>személyazonosítására alkalmas igazolványt – diákigazolványt vagy személyi igazolványt,
-                    </li>
-                    <li>Vizsgabehívó értesítőt.</li>
-                </ul>
-
-                <h5>Megtekintés</h5>
-                <p class="card-text">
-                    Az írásbeli vizsga kiértékelt dolgozatait a vizsgázó és szülője az iskola képviselőjének
-                    jelenlétében, az igazgató
-                    által meghatározott helyen és időben megtekintheti, azokról kézzel vagy elektronikus úton
-                    másolatot
-                    készíthet, és – kizárólag a hivatalos
-                    javítási-értékelési útmutatótól eltérő értékelés esetén – az értékelésre észrevételt tehet.
-                </p>
-                <p class="card-text">
-                    A megtekintéshez – az adott írásbeli vizsgát követő nyolc napon belül – egy munkanapot
-                    (nyolc
-                    órát)
-                    biztosít az iskola. A vizsgázó
-                    észrevételeit a megtekintést követő első munkanap végéig – tizenhat óráig – írásban adhatja
-                    le.
-                    Az
-                    észrevétel benyújtására nyitva álló
-                    határidő elmulasztása esetén egy napon belül lehet igazolási kérelmet benyújtani. Az
-                    igazolási
-                    kérelem benyújtási határideje jogvesztő.
-                </p>
-
-                A megtekintés helyszíne és időpontja:
-                <ul>
-                    <li>Díszterem</li>
-                    <li>2024.01.26. 8:00-16:00</li>
-                </ul>
 
             </div>
             <div class="card-footer text-center">
@@ -211,7 +119,7 @@
                             class="fas fa-list bg-primary border rounded-circle shadow"
                             style="padding: 10px;font-size: 20px;color: var(--white);"></i></div>
                     <div class="col align-self-center">
-                        <p class="text-primary d-inline m-0 fw-bold"><strong>Központi felvételi jelentkezés</strong></p>
+                        <p class="text-primary d-inline m-0 fw-bold"><strong>Szóbeli felvételi beosztás</strong></p>
                     </div>
                 </div>
             </div>

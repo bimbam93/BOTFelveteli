@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CentralAdmissionController;
+use App\Http\Controllers\VerbalScheduleController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Session;
@@ -32,6 +33,16 @@ Route::get('/ca_schedule', [CentralAdmissionController::class, 'dashboard'])
     ->name('student.dashboard');
 */
 
+
+// Szóbeli felvételi beosztás
+Route::get('/', [VerbalScheduleController::class, 'index'])->name('index');
+Route::post('/ca_schedule', [VerbalScheduleController::class, 'login'])->name('student.login');
+Route::get('/ca_schedule', [VerbalScheduleController::class, 'dashboard'])
+    ->middleware('auth:student')
+    ->name('student.dashboard');
+
+
+/*
 Route::get('/', function (){
     return view('30_verbal_dist.index');
 })->name('index');
@@ -39,7 +50,7 @@ Route::get('/', function (){
 Route::get('/verb_schedule', function () {
     return view('30_verbal_dist.index');
 })->name('login');
-
+*/
 
 Route::any('/logout', function (){
     Session::flush();

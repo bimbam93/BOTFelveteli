@@ -14,9 +14,16 @@ class Student extends Authenticable
 
     protected $guarded = [];
 
+    /*
     public function centralAdmission() : HasOne
     {
         return $this->hasOne(StudentCAJoin::class);
+    }
+    */
+
+    public function verbalSchedule() : HasOne
+    {
+        return $this->hasOne(VerbalSchedule::class);
     }
 
     public function logs() : HasMany
