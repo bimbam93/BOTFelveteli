@@ -49,7 +49,6 @@
                     class="form-control form-control-user @error('born') border-danger @enderror "
                     id="born" name="born" type="date" pattern="\d{4}-\d{2}-\d{2}"
                     placeholder="éééé-hh-nn"></div>
-            {{--
             <div class="form-group">
                 <label class="float-left" for="sign"
                        style="font-size: 13px;padding-left: 15px;"><strong>Jelige</strong></label>
@@ -59,7 +58,7 @@
                     class="form-control form-control-user @error('sign') border-danger @enderror "
                     type="text" id="sign" placeholder="ha nem adott meg, hagyja üresen"
                     name="sign">
-            </div> --}}
+            </div>
             <button class="btn btn-primary btn-block text-white btn-user mb-3" name="submit"
                     type="submit">Lekérdezés
             </button>
