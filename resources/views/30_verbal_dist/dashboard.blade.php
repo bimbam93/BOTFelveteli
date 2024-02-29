@@ -96,10 +96,11 @@
                             {{$student->verbalSchedule->szobeli_idosav}}
                         </strong>
                     @elseif($student->verbalSchedule->szobelizhet == "FELMENTVE")
-                        A tanuló a központi felvételin elért pontszámnak és a hozott pontoknak köszönhetően felmentésre került a
-                        szóbeli felvételi alól.
+                        Gratulálunk!
                         <br>
-                        A szóbeli értékelésre a legmagasabb ponszámot kapja.
+                        Az általános iskolai eredmények és a központi írásbeli eredmények alapján mentesül a szóbeli felvételi alól. 
+                        <br>
+                        A szóbeli felvételi vizsgarészre a maximális 25 pont kerül beszámításra.
                     @elseif($student->verbalSchedule->szobelizhet == "#ÉRTÉK!")
                         Nem teljesítette a felvételi követelményeket, így nem került beosztásra!
                     @endif
