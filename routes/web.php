@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CentralAdmissionController;
+use App\Http\Controllers\RankingController;
 use App\Http\Controllers\VerbalScheduleController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
@@ -35,12 +36,25 @@ Route::get('/ca_schedule', [CentralAdmissionController::class, 'dashboard'])
 
 
 // Szóbeli felvételi beosztás
+/*
 Route::get('/', [VerbalScheduleController::class, 'index'])->name('index');
 Route::post('/ca_schedule', [VerbalScheduleController::class, 'login'])->name('student.login');
 Route::get('/ca_schedule', [VerbalScheduleController::class, 'dashboard'])
     ->middleware('auth:student')
     ->name('student.dashboard');
+*/
 
+// Előzetes felvételi rangsor
+Route::get('/', [RankingController::class, 'index'])->name('index');
+Route::any('/ca_schedule', function () {
+    return redirect()->route('index');
+})->name('student.login');
+/*
+Route::post('/ca_schedule', [VerbalScheduleController::class, 'login'])->name('student.login');
+Route::get('/ca_schedule', [VerbalScheduleController::class, 'dashboard'])
+    ->middleware('auth:student')
+    ->name('student.dashboard');
+*/
 
 /*
 Route::get('/', function (){
