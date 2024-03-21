@@ -125,5 +125,15 @@
         </li-->
     </ul>
 
+    <br>
+
+    <ul>
+        <li>
+            <a href="/docs/FelveteliJegyzek2024.pdf" target="_blank">
+                BMSZC Bláthy - Előzetes felvételi jegyzék
+            </a>
+        </li>
+    </ul>
+
 @endsection
 
