@@ -46,15 +46,16 @@ Route::get('/ca_schedule', [VerbalScheduleController::class, 'dashboard'])
 
 // Előzetes felvételi rangsor
 Route::get('/', [RankingController::class, 'index'])->name('index');
+/*
 Route::any('/ca_schedule', function () {
     return redirect()->route('index');
 })->name('student.login');
-/*
-Route::post('/ca_schedule', [VerbalScheduleController::class, 'login'])->name('student.login');
-Route::get('/ca_schedule', [VerbalScheduleController::class, 'dashboard'])
+*/
+Route::post('/rank', [RankingController::class, 'login'])->name('student.login');
+Route::get('/rank', [RankingController::class, 'dashboard'])
     ->middleware('auth:student')
     ->name('student.dashboard');
-*/
+
 
 /*
 Route::get('/', function (){
