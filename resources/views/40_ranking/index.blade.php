@@ -26,7 +26,7 @@
             </div>
         @endif
 
-        @if(false)
+        @if(true)
         <form class="user" method="post" action="{{ route('student.login') }}">
             @csrf
             <div class="form-group">
