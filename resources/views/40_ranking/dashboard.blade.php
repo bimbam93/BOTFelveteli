@@ -36,12 +36,12 @@
                         class="fa fa-file-text bg-success border rounded-circle shadow"
                         style="color: var(--white);padding: 10px;font-size: 20px;"></i></div>
                 <div class="col align-self-center">
-                    <p class="text-success d-inline m-0 font-weight-bold">Tanuló előzetes felvételi eredménye</p>
+                    <p class="text-success d-inline m-0 font-weight-bold">Tanuló adatai</p>
                 </div>
             </div>
         </div>
         <div class="card-body" style="padding-bottom: 5px;">
-            <p class="text-center card-text">Tanuló adatai:</p>
+            <p class="text-center card-text"></p>
             <div class="table-responsive table-borderless text-left">
                 <table class="table table-bordered table-sm">
                     <tbody>
