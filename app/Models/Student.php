@@ -26,6 +26,11 @@ class Student extends Authenticable
         return $this->hasOne(VerbalSchedule::class);
     }
 
+    public function rank() : HasOne
+    {
+        return $this->hasOne(StudentRank::class);
+    }
+
     public function logs() : HasMany
     {
         return $this->hasMany(StudentLog::class, 'edu_id', 'edu_id');

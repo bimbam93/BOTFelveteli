@@ -36,12 +36,12 @@
                         class="fa fa-file-text bg-success border rounded-circle shadow"
                         style="color: var(--white);padding: 10px;font-size: 20px;"></i></div>
                 <div class="col align-self-center">
-                    <p class="text-success d-inline m-0 font-weight-bold">Szóbeli felvételire beosztott tanuló</p>
+                    <p class="text-success d-inline m-0 font-weight-bold">Tanuló előzetes felvételi eredménye</p>
                 </div>
             </div>
         </div>
         <div class="card-body" style="padding-bottom: 5px;">
-            <p class="text-center card-text">Az alábbi tanuló jelentkezése beérkezett az intézményünkben:</p>
+            <p class="text-center card-text">Tanuló adatai:</p>
             <div class="table-responsive table-borderless text-left">
                 <table class="table table-bordered table-sm">
                     <tbody>
@@ -73,7 +73,7 @@
 
         </div>
     </div>
-    @if($student->verbalSchedule != NULL)
+    @if($student->rank != NULL)
         <div class="card shadow my-5 border-left-primary">
             <div class="card-header py-3">
                 <div class="row">
@@ -81,29 +81,15 @@
                             class="fas fa-list bg-primary border rounded-circle shadow"
                             style="padding: 10px;font-size: 20px;color: var(--white);"></i></div>
                     <div class="col align-self-center">
-                        <p class="text-primary d-inline m-0 fw-bold"><strong>Szóbeli felvételi információk</strong></p>
+                        <p class="text-primary d-inline m-0 fw-bold"><strong>Felvélteli előzetes eredmény</strong></p>
                     </div>
                 </div>
             </div>
             <div class="card-body">
-
                 <div class="card-text">
-                    @if($student->verbalSchedule->szobelizhet == "szóbeli")
-                        Vizsga terem: <strong> {{$student->verbalSchedule->szobeli_bizottsag}} </strong> <br>
+                    Pontszám: <strong> {{$student->rank->point}} </strong> <br>
 
-                        Megjelenés időpontja: <strong>
-                            {{$student->verbalSchedule->szobeli_datum}}
-                            {{$student->verbalSchedule->szobeli_idosav}}
-                        </strong>
-                    @elseif($student->verbalSchedule->szobelizhet == "FELMENTVE")
-                        Gratulálunk!
-                        <br>
-                        Az általános iskolai eredmények és a központi írásbeli eredmények alapján mentesül a szóbeli felvételi alól. 
-                        <br>
-                        A szóbeli felvételi vizsgarészre a maximális 25 pont kerül beszámításra.
-                    @elseif($student->verbalSchedule->szobelizhet == "#ÉRTÉK!")
-                        Nem teljesítette a felvételi követelményeket, így nem került beosztásra!
-                    @endif
+                    Rangsor beli sorszám: <strong>{{$student->rank->number}}</strong>
                 </div>
 
             </div>
@@ -113,28 +99,7 @@
             </div>
         </div>
     @else
-        <div class="card shadow my-5 border-left-primary">
-            <div class="card-header py-3">
-                <div class="row">
-                    <div class="col-auto align-self-center"><i
-                            class="fas fa-list bg-primary border rounded-circle shadow"
-                            style="padding: 10px;font-size: 20px;color: var(--white);"></i></div>
-                    <div class="col align-self-center">
-                        <p class="text-primary d-inline m-0 fw-bold"><strong>Szóbeli felvételi beosztás</strong></p>
-                    </div>
-                </div>
-            </div>
-            <div class="card-body">
-                @if (true)
-                    <p class="lead text-center text-uppercase card-text"><strong>Beosztás folyamatban!</strong><br/></p>
-                @endif
-            </div>
-            <div class="card-footer text-center">
-                <p class="text-center" style="margin-bottom: 0px;">A felvételivel kapcsolatos kérdéseket/kéréseket a <a
-                        href="mailto:felveteli@blathy.info"><strong>felveteli@blathy.info</strong></a> címre kell
-                    megküldeni!</p>
-            </div>
-        </div>
+
     @endif
 
 </div>
