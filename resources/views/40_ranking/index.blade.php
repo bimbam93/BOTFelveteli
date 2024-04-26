@@ -118,12 +118,6 @@
                 BMSZC Bláthy - Nyílt napi prezentáció
             </a>
         </li>
-        <li>
-            <a href="#" target="_blank">
-                BMSZC Bláthy - Egyeztetett felvételi jegyzék (a felvételi eljárás végeredménye) <strong>HAMAROSAN</strong>
-            </a>
-        </li>
-
         <!--li>
             <a href="/docs/BMSZC_Blathy_Szobeli%20felveteli_reszletes_tajekoztato_2024.pdf" target="_blank">
                 BMSZC Bláthy - Szóbeli felvételi, részletes tájékoztató
@@ -137,6 +131,11 @@
         <li>
             <a href="/docs/FelveteliJegyzek2024.pdf" target="_blank">
                 BMSZC Bláthy - Előzetes felvételi jegyzék
+            </a>
+        </li>
+        <li>
+            <a href="#" target="_blank">
+                BMSZC Bláthy - Egyeztetett felvételi jegyzék (a felvételi eljárás végeredménye) <strong>HAMAROSAN</strong>
             </a>
         </li>
     </ul>
