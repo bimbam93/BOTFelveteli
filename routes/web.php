@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\CentralAdmissionController;
+use App\Http\Controllers\FinalRankingController;
 use App\Http\Controllers\RankingController;
 use App\Http\Controllers\VerbalScheduleController;
 use Illuminate\Support\Facades\Auth;
@@ -44,19 +45,6 @@ Route::get('/ca_schedule', [VerbalScheduleController::class, 'dashboard'])
     ->name('student.dashboard');
 */
 
-// Előzetes felvételi rangsor
-Route::get('/', [RankingController::class, 'index'])->name('index');
-/*
-Route::any('/ca_schedule', function () {
-    return redirect()->route('index');
-})->name('student.login');
-*/
-Route::post('/rank', [RankingController::class, 'login'])->name('student.login');
-Route::get('/rank', [RankingController::class, 'dashboard'])
-    ->middleware('auth:student')
-    ->name('student.dashboard');
-
-
 /*
 Route::get('/', function (){
     return view('30_verbal_dist.index');
@@ -66,6 +54,25 @@ Route::get('/verb_schedule', function () {
     return view('30_verbal_dist.index');
 })->name('login');
 */
+
+// Előzetes felvételi rangsor - 40
+/*
+Route::get('/', [RankingController::class, 'index'])->name('index');
+Route::post('/rank', [RankingController::class, 'login'])->name('student.login');
+Route::get('/rank', [RankingController::class, 'dashboard'])
+    ->middleware('auth:student')
+    ->name('student.dashboard');
+*/
+
+// Egyeztetett felvételi rangsor - 50
+Route::get('/', [FinalRankingController::class, 'index'])->name('index');
+//Route::post('/rank', [FinalRankingController::class, 'login'])->name('student.login');
+/*Route::get('/rank', [FinalRankingController::class, 'dashboard'])
+    ->middleware('auth:student')
+    ->name('student.dashboard');
+*/
+
+
 
 Route::any('/logout', function (){
     Session::flush();

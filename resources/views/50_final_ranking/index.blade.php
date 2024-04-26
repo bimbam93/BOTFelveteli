@@ -22,11 +22,11 @@
         @else
             <div class="alert alert-warning" role="alert">
                                             <span
-                                                style="font-size: 13px;">Elérhető legkorábban: <i> - 2024.03.22. - </i></span>
+                                                style="font-size: 13px;">Hamarosan</span>
             </div>
         @endif
 
-        @if(true)
+        @if(false)
         <form class="user" method="post" action="{{ route('student.login') }}">
             @csrf
             <div class="form-group">
@@ -131,6 +131,11 @@
         <li>
             <a href="/docs/FelveteliJegyzek2024.pdf" target="_blank">
                 BMSZC Bláthy - Előzetes felvételi jegyzék
+            </a>
+        </li>
+        <li>
+            <a href="#" target="_blank">
+                BMSZC Bláthy - Egyeztetett felvételi jegyzék (a felvételi eljárás végeredménye) <strong>HAMAROSAN</strong>
             </a>
         </li>
     </ul>
