@@ -134,8 +134,8 @@
             </a>
         </li>
         <li>
-            <a href="#" target="_blank">
-                BMSZC Bláthy - Egyeztetett felvételi jegyzék (a felvételi eljárás végeredménye) <strong>HAMAROSAN</strong>
+            <a href="/docs/EFJ_203058_002_2024_2025.pdf" target="_blank">
+                BMSZC Bláthy - Egyeztetett felvételi jegyzék (a felvételi eljárás végeredménye)
             </a>
         </li>
     </ul>
