@@ -4,7 +4,7 @@
 
 @section('sidebar')
 
-        <h4 class="text-dark mb-4">Előzetes felvételi rangsor</h4>
+        <h4 class="text-dark mb-4">Egyeztetett felvételi rangsor</h4>
 
         @error('msg')
         <div class="alert alert-danger alert-dismissible" role="alert">

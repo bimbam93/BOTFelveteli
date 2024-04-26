@@ -14,7 +14,7 @@ class FinalRankingController extends Controller
     public function index()
     {
         return view('50_final_ranking.index', [
-            'updated_at' => ' - 2024.04.26. - '
+            //'updated_at' => ' - 2024.04.26. - '
         ]);
     }
 
