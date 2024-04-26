@@ -26,7 +26,7 @@
             </div>
         @endif
 
-        @if(false)
+        @if(true)
         <form class="user" method="post" action="{{ route('student.login') }}">
             @csrf
             <div class="form-group">
@@ -129,6 +129,16 @@
                 BMSZC Bláthy - Szóbeli felvételi, részletes tájékoztató
             </a>
         </li-->
+    </ul>
+
+    <br>
+
+    <ul>
+        <li>
+            <a href="/docs/FelveteliJegyzek2024.pdf" target="_blank">
+                BMSZC Bláthy - Előzetes felvételi jegyzék
+            </a>
+        </li>
     </ul>
 
 @endsection
