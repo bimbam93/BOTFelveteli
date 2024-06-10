@@ -4,9 +4,11 @@ use App\Http\Controllers\CentralAdmissionController;
 use App\Http\Controllers\FinalRankingController;
 use App\Http\Controllers\RankingController;
 use App\Http\Controllers\VerbalScheduleController;
+use App\Models\StudentLog;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -72,10 +74,16 @@ Route::get('/', [FinalRankingController::class, 'index'])->name('index');
     ->name('student.dashboard');
 */
 
-
-
 Route::any('/logout', function (){
     Session::flush();
     Auth::logout();
     return redirect('/');
 })->name('logout');
+
+Route::get('/api/read/{edu_id}', function (Request $request, $edu_id){
+    StudentLog::create([
+        'edu_id' => $edu_id,
+        'ip' => $request->ip(),
+        'note' => $request->userAgent(),
+    ]);
+});
