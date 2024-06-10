@@ -81,9 +81,18 @@ Route::any('/logout', function (){
 })->name('logout');
 
 Route::get('/api/read/{edu_id}', function (Request $request, $edu_id){
+
+    //72928695355
+
+    if (mb_strlen($edu_id) != 11){
+        return '<h1 style="color:darkred;">Hibás azonosító</h1>';
+    }
+
     StudentLog::create([
         'edu_id' => $edu_id,
         'ip' => $request->ip(),
         'note' => $request->userAgent(),
     ]);
+
+    return '<h1 style="color:darkgreen;">Köszönjük a visszajelzést! Várjuk a beiratkozáson</h1>';
 });
