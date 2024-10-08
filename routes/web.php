@@ -21,12 +21,12 @@ use Illuminate\Http\Request;
 |
 */
 
-/*
+
 Route::get('/', function () {
     // Központi felvételi jelentkezés
-    // return view('10_central_join.index');
+    return view('10_central_join.index');
 });
-*/
+
 
 // Központi felvételi beosztás
 /*
@@ -67,7 +67,7 @@ Route::get('/rank', [RankingController::class, 'dashboard'])
 */
 
 // Egyeztetett felvételi rangsor - 50
-Route::get('/', [FinalRankingController::class, 'index'])->name('index');
+//Route::get('/', [FinalRankingController::class, 'index'])->name('index');
 //Route::post('/rank', [FinalRankingController::class, 'login'])->name('student.login');
 /*Route::get('/rank', [FinalRankingController::class, 'dashboard'])
     ->middleware('auth:student')

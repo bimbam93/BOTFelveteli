@@ -45,14 +45,14 @@
     <h1>Felvételi tájékoztató</h1>
 
     <p>
-        A 2024/2025. tanévben indítani tervezett képzéseink:
+        A 2025/2026. tanévben indítani tervezett képzéseink:
     </p>
     <ul>
         <li>
-            az általános iskolát a 2023/2024. tanévben befejezőknek a 9. évfolyamtól indulóan 5 éves technikumi képzés az informatika és távközlés ágazatban,
+            az általános iskolát a 2024/2025. tanévben befejezőknek a 9. évfolyamtól indulóan 5 éves technikumi képzés az informatika és távközlés ágazatban,
         </li>
         <li>
-            mindkét képzési formában a 11. évfolyamtól választhatóan „Szoftverfejlesztő és -tesztelő technikus” vagy „Informatikai rendszer- és alkalmazás-üzemeltető technikus” szakmákban.
+            mindkét képzési formában a 11. évfolyamtól választhatóan „Szoftverfejlesztő és -tesztelő” vagy „Informatikai rendszer- és alkalmazás-üzemeltető” szakmákban.
         </li>
     </ul>
 
@@ -61,23 +61,23 @@
     </p>
     <ul>
         <li>
-            <a href="/docs/nyilt_2324_Blathy.pdf" target="_blank">
+            <a href="/docs/nyilt_2425_Blathy.pdf" target="_blank">
                 BMSZC Bláthy - Szórólap
             </a>
         </li>
         <li>
-            <a href="/docs/nyilt_2324_Blathy_Taj_Kicsi.pdf" target="_blank">
+            <a href="/docs/nyilt_2425_Blathy_Taj_Kicsi.pdf" target="_blank">
                 BMSZC Bláthy - Rövid tájékoztató
             </a>
         </li>
         <li>
-            <a href="/docs/nyilt_2324_BlathyTajReszl.pdf" target="_blank">
-                BMSZC Bláthy - Részletes fevételi tájékoztató
+            <a href="#" target="_blank">
+                BMSZC Bláthy - Részletes fevételi tájékoztató (Hamarosan)
             </a>
         </li>
         <li>
-            <a href="/docs/nyilt_2324_Prezentacio.pdf" target="_blank">
-                BMSZC Bláthy - Nyílt napi prezentáció
+            <a href="#" target="_blank">
+                BMSZC Bláthy - Nyílt napi prezentáció (Hamarosan)
             </a>
         </li>
     </ul>
@@ -110,7 +110,7 @@
 
     <p>
         <strong>
-            A felvételi vizsgára a 2023. november 30-ig lehet jelentkezni az alábbi módokon. Kérjük, hogy amennyiben lehetőségük van rá, az ügyfélkapun keresztüli jelentkezési módot válasszák!
+            A felvételi vizsgára a 2024. november 30-ig lehet jelentkezni az alábbi módokon. Kérjük, hogy amennyiben lehetőségük van rá, az ügyfélkapun keresztüli jelentkezési módot válasszák!
         </strong>
     </p>
 
@@ -127,13 +127,8 @@
             A letöltött és kinyomtatott, <strong>kitöltött papír alapú dokumentumokat</strong> (jelentkezési lap és esetlegesen speciális vizsgakörülményre irányuló kérelem és szakértői vélemény) <strong>az iskola titkárságán munkanapokon 8:00-14:00 között leadva vagy az iskola címére postai úton megküldve</strong>
             <ul>
                 <li>
-                    <a href="/docs/Blathy_KOZFELVIR_jelentkezesi_lap_2024.docx" target="_blank">
-                        Jelentkezési lap központi írásbeli vizsgára a BMSZC Bláthy-ba (docx)
-                    </a>
-                </li>
-                <li>
-                    <a href="/docs/Blathy_KOZFELVIR_jelentkezesi_lap_2024.pdf" target="_blank">
-                        Jelentkezési lap központi írásbeli vizsgára a BMSZC Bláthy-ba (pdf)
+                    <a href="#" target="_blank">
+                        Jelentkezési lap központi írásbeli vizsgára a BMSZC Bláthy-ba (hamarosan)
                     </a>
                 </li>
                 <li>
@@ -145,13 +140,13 @@
             Csak SNI/BTMN tanuló esetében a speciális vizsgakörülmények (pl. hosszabb kidolgozási idő, számológép használata, stb.) kéréséhez szükséges
             <ul>
                 <li>
-                    <a href="https://www.oktatas.hu/pub_bin/dload/kozoktatas/beiskolazas/2024/KOZFELVIR_szuloi_kerelem_kezi_2024.pdf" target="_blank">
-                        Szülői kérelem a központi írásbeli vizsga speciális vizsgakörülményeinek biztosítására (docx)
+                    <a href="#" target="_blank">
+                        Szülői kérelem a központi írásbeli vizsga speciális vizsgakörülményeinek biztosítására (hamarosan)
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.oktatas.hu/pub_bin/dload/kozoktatas/beiskolazas/2024/KOZFELVIR_szuloi_kerelem_2024.docx" target="_blank">
-                        Szülői kérelem a központi írásbeli vizsga speciális vizsgakörülményeinek biztosítására (pdf)
+                    <a href="#" target="_blank">
+                        Szülői kérelem a központi írásbeli vizsga speciális vizsgakörülményeinek biztosítására (hamarosan)
                     </a>
                 </li>
                 <li>

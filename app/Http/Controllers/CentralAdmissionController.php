@@ -6,7 +6,6 @@ use App\Http\Requests\StudentLoginRequest;
 use App\Models\Student;
 use App\Models\StudentCAJoin;
 use App\Models\StudentLog;
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
 class CentralAdmissionController extends Controller
