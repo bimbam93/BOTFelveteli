@@ -9,17 +9,17 @@
             <h5 class="card-title">Továbbtanulás</h5>
             <p class="card-text">
             </p>
-            <a href="https://felveteli.blathy.info/docs/nyilt_2324_BlathyTajReszl.pdf" target="_blank"
-               class="btn btn-block btn-info">
-                Részletes tájékoztató
+            <a href="#" target="_blank"
+               class="btn btn-block btn-info" disabled>
+                Részletes tájékoztató (Hamarosan)
             </a>
-            <a href="https://felveteli.blathy.info/docs/nyilt_2324_Prezentacio.pdf" target="_blank"
-               class="btn btn-block btn-info">
-                Prezentáció
+            <a href="#" target="_blank"
+               class="btn btn-block btn-info" disabled>
+                Prezentáció (Hamarosan)
             </a>
         </div>
     </div>
-
+    {{--
     <div class="card mt-5">
         <div class="card-body">
             <h5 class="card-title">Központi felvételi</h5>
@@ -38,6 +38,7 @@
             </a>
         </div>
     </div>
+    --}}
 
 @endsection
 
@@ -82,7 +83,7 @@
         </li>
     </ul>
 
-
+{{--
     <h2 id="kozponti_jelentkezes">
         Jelentkezés központi írásbeli felvételi vizsgára
     </h2>
@@ -175,5 +176,7 @@
     <p>
         A vizsgára való jelentkezésükkel kapcsolatban esetlegesen felmerülő kérdéseiket a felveteli@blathy.info címen email-ben tehetik fel.
     </p>
+
+    --}}
 @endsection
 
