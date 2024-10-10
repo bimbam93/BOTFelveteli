@@ -10,11 +10,11 @@
             <p class="card-text">
             </p>
             <a href="#" target="_blank"
-               class="btn btn-block btn-info" disabled>
+               class="btn btn-block btn-secondary" disabled>
                 Részletes tájékoztató (Hamarosan)
             </a>
             <a href="#" target="_blank"
-               class="btn btn-block btn-info" disabled>
+               class="btn btn-block btn-secondary" disabled>
                 Prezentáció (Hamarosan)
             </a>
         </div>
