@@ -53,7 +53,11 @@
             az általános iskolát a 2024/2025. tanévben befejezőknek a 9. évfolyamtól indulóan 5 éves technikumi képzés az informatika és távközlés ágazatban,
         </li>
         <li>
-            mindkét képzési formában a 11. évfolyamtól választhatóan „Szoftverfejlesztő és -tesztelő” vagy „Informatikai rendszer- és alkalmazás-üzemeltető” szakmákban.
+            mindkét képzési formában a 11. évfolyamtól választhatóan „
+            <a href="https://ikk.hu/szakmakartyak/szakmak/szoftverfejleszto-es-tesztelo" target="_blank">Szoftverfejlesztő és -tesztelő</a>
+            ” vagy „
+            <a href="https://ikk.hu/szakmakartyak/szakmak/informatikai-rendszer-es-alkalmazas-uzemelteto-technikus" target="_blank">Informatikai rendszer- és alkalmazás-üzemeltető technikus</a>
+            ” szakmákban.
         </li>
     </ul>
 
