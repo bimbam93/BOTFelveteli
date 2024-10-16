@@ -13,7 +13,7 @@
                class="btn btn-block btn-info">
                 Részletes tájékoztató
             </a>
-            <a href="/docs/Blathy20252026_Felv_Taj_Prez_V1_0.pptx" target="_blank"
+            <a href="/docs/Bláthy20252026FelvTajPrez_V1.0-vid.pdf" target="_blank"
                class="btn btn-block btn-info" >
                 Prezentáció
             </a>
@@ -81,7 +81,7 @@
             </a>
         </li>
         <li>
-            <a href="/docs/Blathy20252026_Felv_Taj_Prez_V1_0.pptx" target="_blank">
+            <a href="/docs/Bláthy20252026FelvTajPrez_V1.0-vid.pdf" target="_blank">
                 BMSZC Bláthy - Nyílt napi prezentáció
             </a>
         </li>
