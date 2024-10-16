@@ -9,13 +9,13 @@
             <h5 class="card-title">Továbbtanulás</h5>
             <p class="card-text">
             </p>
-            <a href="#" target="_blank"
-               class="btn btn-block btn-secondary" disabled>
-                Részletes tájékoztató (Hamarosan)
+            <a href="/docs/BMSZCBlathyFelveteli_tajekoztato_2025_2026ra_V1.0.pdf" target="_blank"
+               class="btn btn-block btn-secondary">
+                Részletes tájékoztató
             </a>
-            <a href="#" target="_blank"
-               class="btn btn-block btn-secondary" disabled>
-                Prezentáció (Hamarosan)
+            <a href="/docs/Blathy20252026_Felv_Taj_Prez_V1_0.pptx" target="_blank"
+               class="btn btn-block btn-secondary" >
+                Prezentáció
             </a>
         </div>
     </div>
@@ -77,7 +77,7 @@
         </li>
         <li>
             <a href="/docs/BMSZCBlathyFelveteli_tajekoztato_2025_2026ra_V1.0.pdf" target="_blank">
-                BMSZC Bláthy - Részletes fevételi tájékoztató (Hamarosan)
+                BMSZC Bláthy - Részletes fevételi tájékoztató
             </a>
         </li>
         <li>
