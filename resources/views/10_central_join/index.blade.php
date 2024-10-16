@@ -10,11 +10,11 @@
             <p class="card-text">
             </p>
             <a href="/docs/BMSZCBlathyFelveteli_tajekoztato_2025_2026ra_V1.0.pdf" target="_blank"
-               class="btn btn-block btn-secondary">
+               class="btn btn-block btn-info">
                 Részletes tájékoztató
             </a>
             <a href="/docs/Blathy20252026_Felv_Taj_Prez_V1_0.pptx" target="_blank"
-               class="btn btn-block btn-secondary" >
+               class="btn btn-block btn-info" >
                 Prezentáció
             </a>
         </div>
