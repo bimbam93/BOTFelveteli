@@ -76,13 +76,13 @@
             </a>
         </li>
         <li>
-            <a href="#" target="_blank">
+            <a href="/docs/BMSZCBlathyFelveteli_tajekoztato_2025_2026ra_V1.0.pdf" target="_blank">
                 BMSZC Bláthy - Részletes fevételi tájékoztató (Hamarosan)
             </a>
         </li>
         <li>
-            <a href="#" target="_blank">
-                BMSZC Bláthy - Nyílt napi prezentáció (Hamarosan)
+            <a href="/docs/Blathy20252026_Felv_Taj_Prez_V1_0.pptx" target="_blank">
+                BMSZC Bláthy - Nyílt napi prezentáció
             </a>
         </li>
     </ul>
