@@ -132,6 +132,8 @@
                     <a href="/docs/KOZFELVIR_Jelentkezesi_lap_2024_BLATHY.docx" target="_blank">
                         Jelentkezési lap központi írásbeli vizsgára a BMSZC Bláthy-ba (docx)
                     </a>
+                </li>
+                <li>
                     <a href="/docs/KOZFELVIR_Jelentkezesi_lap_2024_BLATHY.pdf" target="_blank">
                         Jelentkezési lap központi írásbeli vizsgára a BMSZC Bláthy-ba (pdf)
                     </a>
