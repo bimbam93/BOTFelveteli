@@ -19,7 +19,6 @@
             </a>
         </div>
     </div>
-    {{--
     <div class="card mt-5">
         <div class="card-body">
             <h5 class="card-title">Központi felvételi</h5>
@@ -28,18 +27,16 @@
                class="btn btn-block btn-info">
                 Online jelentkezés!
             </a>
-            <a href="https://felveteli.blathy.info/docs/Blathy_KOZFELVIR_jelentkezesi_lap_2024.docx" target="_blank"
+            <a href="https://felveteli.blathy.info/docs/KOZFELVIR_Jelentkezesi_lap_2024_BLATHY.docx" target="_blank"
                class="btn btn-block btn-info">
                 Jelentkezési lap (DOCX)
             </a>
-            <a href="https://felveteli.blathy.info/docs/Blathy_KOZFELVIR_jelentkezesi_lap_2024.pdf" target="_blank"
+            <a href="https://felveteli.blathy.info/docs/KOZFELVIR_Jelentkezesi_lap_2024_BLATHY.pdf" target="_blank"
                class="btn btn-block btn-info">
                 Jelentkezési lap (PDF)
             </a>
         </div>
     </div>
-    --}}
-
 @endsection
 
 @section('content')
@@ -87,7 +84,7 @@
         </li>
     </ul>
 
-{{--
+{{-- --}}
     <h2 id="kozponti_jelentkezes">
         Jelentkezés központi írásbeli felvételi vizsgára
     </h2>
@@ -98,7 +95,7 @@
 
     <p>
         <strong>
-            Javasoljuk, hogy a jelentkezési lap kitöltésének megkezdése előtt feltétlenül olvassák el az <a href="https://www.oktatas.hu/kozneveles/kozepfoku_felveteli_eljaras/KIFIR_TT_felvi_taj_es_kereso">
+            Javasoljuk, hogy a jelentkezési lap kitöltésének megkezdése előtt feltétlenül olvassák el az <a href="https://www.oktatas.hu/kozneveles/kozepfoku_felveteli_eljaras/KIFIR_TT_felveteli_tajekoztato_kereso">
                 oktatási hivatal tájékoztatóját</a>
         </strong>
         , amelyben
@@ -115,13 +112,13 @@
 
     <p>
         <strong>
-            A felvételi vizsgára a 2024. november 30-ig lehet jelentkezni az alábbi módokon. Kérjük, hogy amennyiben lehetőségük van rá, az ügyfélkapun keresztüli jelentkezési módot válasszák!
+            A felvételi vizsgára a 2024. december 02-ig lehet jelentkezni az alábbi módokon. Kérjük, hogy amennyiben lehetőségük van rá, az ügyfélkapun keresztüli jelentkezési módot válasszák!
         </strong>
     </p>
 
     <ul>
         <li>
-            <strong>Ügyfélkapunk keresztül</strong>, elektronikus űrlap használatával. Az ügyfélkapun beküldendő elektronikus űrlap kitöltése előtt kérjük, hogy tekintsék meg a program használatához készített <strong>videóútmutatót</strong> (<a href="https://www.youtube.com/watch?v=6HMagO9tcuk" target="_blank">https://www.youtube.com/watch?v=6HMagO9tcuk</a>), vagy olvassák el a kitöltési útmutatót!
+            <strong>Ügyfélkapunk keresztül</strong>, elektronikus űrlap használatával {{--. Az ügyfélkapun beküldendő elektronikus űrlap kitöltése előtt kérjük, hogy tekintsék meg a program használatához készített <strong>videóútmutatót</strong> (<a href="https://www.youtube.com/watch?v=6HMagO9tcuk" target="_blank">https://www.youtube.com/watch?v=6HMagO9tcuk</a>), vagy olvassák el a kitöltési útmutatót! --}}
             <ul>
                 <li>
                     Közfelvir - Elektronikus jelentkezési felület (<a href="https://ejel.kozfelvir.hu/" target="_blank">https://ejel.kozfelvir.hu/</a>)
@@ -129,11 +126,14 @@
             </ul>
         </li>
         <li>
-            A letöltött és kinyomtatott, <strong>kitöltött papír alapú dokumentumokat</strong> (jelentkezési lap és esetlegesen speciális vizsgakörülményre irányuló kérelem és szakértői vélemény) <strong>az iskola titkárságán munkanapokon 8:00-14:00 között leadva vagy az iskola címére postai úton megküldve</strong>
+            A letöltött és kinyomtatott, <strong>kitöltött papír alapú dokumentumokat</strong> (jelentkezési lap és esetlegesen speciális vizsgakörülményre irányuló kérelem és szakértői vélemény) <strong>az iskola portáján leadva vagy az iskola címére postai úton megküldve</strong>
             <ul>
                 <li>
-                    <a href="#" target="_blank">
-                        Jelentkezési lap központi írásbeli vizsgára a BMSZC Bláthy-ba (hamarosan)
+                    <a href="/docs/KOZFELVIR_Jelentkezesi_lap_2024_BLATHY.docx" target="_blank">
+                        Jelentkezési lap központi írásbeli vizsgára a BMSZC Bláthy-ba (docx)
+                    </a>
+                    <a href="/docs/KOZFELVIR_Jelentkezesi_lap_2024_BLATHY.pdf" target="_blank">
+                        Jelentkezési lap központi írásbeli vizsgára a BMSZC Bláthy-ba (pdf)
                     </a>
                 </li>
                 <li>
@@ -145,13 +145,13 @@
             Csak SNI/BTMN tanuló esetében a speciális vizsgakörülmények (pl. hosszabb kidolgozási idő, számológép használata, stb.) kéréséhez szükséges
             <ul>
                 <li>
-                    <a href="#" target="_blank">
-                        Szülői kérelem a központi írásbeli vizsga speciális vizsgakörülményeinek biztosítására (hamarosan)
+                    <a href="https://www.oktatas.hu/pub_bin/dload/kozoktatas/beiskolazas/2025/KOZFELVIR_szuloi_kerelem_2024.docx" target="_blank">
+                        Szülői kérelem a központi írásbeli vizsga speciális vizsgakörülményeinek biztosítására (.docx)
                     </a>
                 </li>
                 <li>
-                    <a href="#" target="_blank">
-                        Szülői kérelem a központi írásbeli vizsga speciális vizsgakörülményeinek biztosítására (hamarosan)
+                    <a href="https://www.oktatas.hu/pub_bin/dload/kozoktatas/beiskolazas/2025/KOZFELVIR_szuloi_kerelem_2024.docx" target="_blank">
+                        Szülői kérelem a központi írásbeli vizsga speciális vizsgakörülményeinek biztosítására (.pdf)
                     </a>
                 </li>
                 <li>
@@ -164,7 +164,6 @@
     <p>
         A központi írásbeli vizsga szervezőjének adatai, amennyiben a vizsgát a BMSZC Bláthy Ottó Titusz Informatikai Technikumban kívánják megírni:
     </p>
-
     <ul>
         <li>OM azonosítója: 203058/002</li>
         <li>Neve: Budapesti Műszaki Szakképzési Centrum Bláthy Ottó Titusz Informatikai Technikum</li>
@@ -178,9 +177,18 @@
     </p>
 
     <p>
+        A leadott jelentkezés után legkésőbb három munkanappal ellenőrizhető a jelentkezés beérkezése és rögzítése a következő hivatkozáson:
+    </p>
+    <ul>
+        <li>
+            <a href="#">A BMSZC Bláthy-ban rögzített jelentkezések (elérhető 2022.11.25-től.)</a>
+        </li>
+    </ul>
+
+    <p>
         A vizsgára való jelentkezésükkel kapcsolatban esetlegesen felmerülő kérdéseiket a felveteli@blathy.info címen email-ben tehetik fel.
     </p>
 
-    --}}
+{{--    --}}
 @endsection
 
