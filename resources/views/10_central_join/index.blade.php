@@ -19,7 +19,7 @@
             </a>
         </div>
     </div>
-    <div class="card mt-5">
+    {{--<div class="card mt-5">
         <div class="card-body">
             <h5 class="card-title">Központi felvételi</h5>
             <p class="card-text"></p>
@@ -34,6 +34,16 @@
             <a href="https://felveteli.blathy.info/docs/KOZFELVIR_Jelentkezesi_lap_2024_BLATHY.pdf" target="_blank"
                class="btn btn-block btn-info">
                 Jelentkezési lap (PDF)
+            </a>
+        </div>
+    </div>--}}
+    <div class="card mt-5">
+        <div class="card-body">
+            <h5 class="card-title">Szóbeli felvételi</h5>
+            <p class="card-text"></p>
+            <a href="https://felveteli.blathy.info/docs/BMSZC_Blathy_Szobeli felveteli_reszletes_tajekoztato_2025_V1.0.pdf" target="_blank"
+               class="btn btn-block btn-info">
+                BMSZC Bláthy - Szóbeli felvételi, részletes tájékoztató (2025) V1
             </a>
         </div>
     </div>
