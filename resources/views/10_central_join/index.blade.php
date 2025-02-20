@@ -94,7 +94,7 @@
         </li>
     </ul>
 
-{{-- --}}
+{{--
     <h2 id="kozponti_jelentkezes">
         Jelentkezés központi írásbeli felvételi vizsgára
     </h2>
@@ -201,6 +201,19 @@
         A vizsgára való jelentkezésükkel kapcsolatban esetlegesen felmerülő kérdéseiket a felveteli@blathy.info címen email-ben tehetik fel.
     </p>
 
-{{--    --}}
+--}}
+    <h2 id="szobeli_beosztas">
+        Szóbeli felvételi
+    </h2>
+
+    <p>
+        Iskolánkban a szóbeli felvételiket 2025. március 10-13. között tartjuk, naponta 13:00-tól, külön beosztás szerint.
+    </p>
+
+    <p>
+        A szóbeli felvételi beosztást 2025.02.27. és 2025.03.04 között fogjuk publikálni, a beérkező jelentkezések feldolgozása után.
+    </p>
+
+
 @endsection
 
