@@ -202,6 +202,7 @@
     </p>
 
 --}}
+<hr>
     <h2 id="szobeli_beosztas">
         Szóbeli felvételi
     </h2>
